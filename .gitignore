@@ -1,0 +1,48 @@
+# ============================== For this project ==============================
+app/report/upload/*
+
+# ============================== Common Files & Folder To ignore ==============================
+env
+files
+.env**
+.venv**
+**.bak
+# *.conf
+*.log
+**.sock
+**.out
+**.exe
+.coverage*
+**/.DS_Store
+
+# ============================== Python ==============================
+**/__pycache__
+#pyenv
+.python-version
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# ============================== Frontend File ==============================
+
+# ============================== Editor's ==============================
+# Visual Studio Code
+.vscode/**
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+*.code-workspace
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-shareaes
+# If you are using PyCharm
+.idea/
+*.iws / out/
+#Jupyter Notebook
+.ipynb_checkpoints
